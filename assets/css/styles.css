@@ -400,11 +400,11 @@ img {
 }
 
 /*==================== SKILLS ====================*/
-.skills__container{
+.skills__container {
   row-gap: 0;
 }
 
-.skills__header{
+.skills__header {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-2-5);
@@ -412,103 +412,103 @@ img {
 }
 
 .skills__icon,
-.skills__arrow{
+.skills__arrow {
   font-size: 2rem;
   color: var(--first-color);
 }
 
-.skills__icon{
+.skills__icon {
   margin-right: var(--mb-0-75);
 }
 
-.skills__title{
+.skills__title {
   font-size: var(--h3-font-size);
 }
 
-.skills__subtitle{
+.skills__subtitle {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
 
-.skills__arrow{
+.skills__arrow {
   margin-left: auto;
   transition: .4s;
 }
 
-.skills__list{
+.skills__list {
   row-gap: 1.5rem;
   padding-left: 2.7rem;
 }
 
-.skills__titles{
+.skills__titles {
   display: flex;
   justify-content: space-between;
   margin-bottom: var(--mb-0-5);
 }
 
-.skills__name{
+.skills__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
 
 .skills__bar,
-.skills__percentage{
+.skills__percentage {
   height: 5px;
   border-radius: .25rem;
 }
 
-.skills__bar{
+.skills__bar {
   background-color: var(--first-color-lighter);
 }
 
-.skills__percentage{
+.skills__percentage {
   display: block;
   background-color: var(--first-color);
 }
 
-.skills__html{
+.skills__html {
   width: 90%;
 }
 
-.skills__css{
+.skills__css {
   width: 80%;
 }
 
-.skills__js{
+.skills__js {
   width: 90%;
 }
 
-.skills__react{
+.skills__react {
   width: 50%;
 }
 
-.skills__php{
+.skills__php {
   width: 90%;
 }
 
-.skills__node{
+.skills__node {
   width: 60%;
 }
 
-.skills__firebase{
+.skills__firebase {
   width: 70%;
 }
 
-.skills__python{
+.skills__python {
   width: 95%;
 }
 
-.skills__close .skills__list{
+.skills__close .skills__list {
   height: 0;
   overflow: hidden;
 }
 
-.skills__open .skills__list{
+.skills__open .skills__list {
   height: max-content;
   margin-bottom: var(--mb-2-5);
 }
 
-.skills__open .skills__arrow{
+.skills__open .skills__arrow {
   transform: rotate(-180deg);
 }
 
@@ -693,7 +693,52 @@ img {
 
 
 /*==================== CONTACT ME ====================*/
+.contact__container {
+  row-gap: 3rem;
+}
 
+.contact__information {
+  display: flex;
+  margin-bottom: var(--mb-2);
+}
+
+.contact__icon {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-right: var(--mb-0-75);
+}
+
+.contact__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
+.contact__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.contact__content {
+  background-color: var(--input-color);
+  border-radius: .5rem;
+  padding: .75rem 1rem .25rem;
+}
+
+.contact__label {
+  font-size: var(--smaller-font-size);
+  color: var(--title-color);
+}
+
+.contact__input {
+  width: 100%;
+  background-color: var(--input-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  border: none;
+  outline: none;
+  padding: .25rem .5rem .5rem 0;
+}
 
 /*==================== FOOTER ====================*/
 
